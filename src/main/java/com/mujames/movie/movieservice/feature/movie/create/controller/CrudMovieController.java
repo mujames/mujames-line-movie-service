@@ -2,11 +2,16 @@ package com.mujames.movie.movieservice.feature.movie.create.controller;
 
 import com.mujames.movie.movieservice.constant.regex.ActionType;
 import com.mujames.movie.movieservice.feature.movie.create.domain.CreateMovieRequest;
+import com.mujames.movie.movieservice.feature.movie.create.service.CrudMovieService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-public class CreateMovieController {
+public class CrudMovieController {
+
+    @Autowired
+    private CrudMovieService crudMovieService;
 
     @PostMapping("api/v1/movies")
     public void createMovie(
