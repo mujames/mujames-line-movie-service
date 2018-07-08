@@ -1,4 +1,4 @@
-package com.mujames.movie.movieservice.constant.regex;
+package com.mujames.movie.movieservice.constant;
 
 public enum GenreEnum {
     ACTION,

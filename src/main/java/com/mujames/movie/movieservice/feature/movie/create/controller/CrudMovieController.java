@@ -1,6 +1,6 @@
 package com.mujames.movie.movieservice.feature.movie.create.controller;
 
-import com.mujames.movie.movieservice.constant.regex.ActionType;
+import com.mujames.movie.movieservice.constant.ActionType;
 import com.mujames.movie.movieservice.feature.movie.create.domain.CreateMovieRequest;
 import com.mujames.movie.movieservice.feature.movie.create.service.CrudMovieService;
 import org.springframework.beans.factory.annotation.Autowired;

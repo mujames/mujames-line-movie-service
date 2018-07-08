@@ -1,6 +1,6 @@
 package com.mujames.movie.movieservice.feature.movie.create.domain;
 
-import com.mujames.movie.movieservice.constant.regex.ActionType;
+import com.mujames.movie.movieservice.constant.ActionType;
 import lombok.Data;
 
 import javax.validation.constraints.NotNull;

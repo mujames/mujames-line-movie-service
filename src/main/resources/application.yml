@@ -1,7 +1,9 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/
+    url: jdbc:mysql://localhost:3306/mujames-li-movie
     driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password:
 eureka:
   client:
     enabled: false
